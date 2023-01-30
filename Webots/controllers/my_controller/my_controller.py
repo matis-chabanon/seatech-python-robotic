@@ -59,6 +59,7 @@ class Combat(Robot):
     
     def droite(self):
         self.motor.droite()
+
     
 Tou = Combat()
 timestep = int(Tou.getBasicTimeStep())
